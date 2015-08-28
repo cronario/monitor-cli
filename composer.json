@@ -1,0 +1,46 @@
+{
+    "name": "Cronario/MonitorCli",
+    "description": "Do Jobs like a Boss",
+    "keywords": [
+      "Cronario", "Cron", "Threads",
+      "Daemon","Manager", "Queue", "Job", "Worker", "Producer",
+      "Asynchronous", "Synchronous",
+      "Async", "Sync"
+    ],
+
+    "homepage": "http://cronar.io",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gryaznov Vladislav",
+            "email": "vlad.groznov@gmail.com",
+            "homepage": "https://interkassa.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=5.5.0",
+        "cronario/cronario": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cronario\\MonitorCli\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cronario\\MonitorCli\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.0.1"
+        }
+    },
+}
