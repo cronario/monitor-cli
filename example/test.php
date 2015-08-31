@@ -2,8 +2,8 @@
 
 // include('bootstrap.php');
 
-use \Monitor\Cli as MonitorCli;
+use \Cronario\MonitorCli\Client as Client;
 
-$Monitor = new MonitorCli();
+$Monitor = new Client();
 
 $Monitor->start();

@@ -1,8 +1,8 @@
 <?php
 
-namespace Monitor;
+namespace Cronario\MonitorCli;
 
-class Cli
+class Client
 {
 
     // region INIT *************************************************
